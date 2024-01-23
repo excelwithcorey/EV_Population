@@ -29,11 +29,67 @@ As an Analyst with a passion in motor vehicles and energy solutions to help impr
 
 When organizing my table information, I actively think about questions to understand the dataset more.
 
+## Analysis Info
+* Market Share
+* Range Analysis
+* Demographic Analysis
+
+
 ## Business Question & Objectives
 General Questions:
 1. How many unique states, cities, make models, and ev types does the data have?
 2. Which state has the highest adoption of EV?
 3. Which EV is the most popular among all make and models?
 
-Descriptive Analysis:
-1. 
+### Market:
+1. How many EV’s are in each city?
+2. What different makes and models are included in the dataset?
+3. How many electric vehicles are in each postal code?
+4. What make and model are the most popular?
+5. Which EV has the highest rage among all EVs?
+6. Which cities have the highest market share of EV?
+7. What is the market share ‘make’ in the dataset? Which make currently has the highest?
+8. What is the market share with the distribution of EV with different range?
+9. How has the market share of EV changed over the years?
+10. What is the market share of different vehicle types in the dataset? (ex: plug-in-hybrid, battery-electric)
+
+### Range Analysis:
+1. What are the top 5 make and models that have the highest range?
+2. What is the average range for each EV type?
+3. What is the distribution of EV range of the dataset?
+
+### Demographic:
+1. How many counties are in the dataset?
+2. What are the unique cities?
+3. How many states are included in the dataset?
+4. How many EV are in each postal code?
+5. What cities have the most EVs?
+6. What is the distribution and adoption rate across the states?
+7. Are there certain makes and models that dominate the market?
+8. What is the adoption rate across each postal code?
+9. What is the adoption rate difference between 2023 and 2022?
+
+## Code Used
+
+If you'd like to see the rest of the code, click here [ev_pop_clean](https://github.com/thatcreativecopy/Proj-1-EV_Population/blob/main/ev_pop_final.sql) file
+
+```sql
+----- Create Database -----
+CREATE DATABASE EV_Population
+
+----- Create Table -----
+CREATE TABLE ev_pop(
+    vin VARCHAR (17) NOT NULL,
+    county VARCHAR (50) NOT NULL,
+    city VARCHAR (50) NOT NULL,
+    state VARCHAR (5) NOT NULL,
+    postal_code INT NOT NULL,
+    model_year INT NOT NULL,
+    make VARCHAR (50) NOT NULL,
+    model VARCHAR (50) NOT NULL,
+    ev_type VARCHAR (100) NOT NULL,
+    clean_alt_fuel VARCHAR (100) NOT NULL,
+    electric_range INT NOT NULL,
+    base_msrp INT NOT NULL
+);
+```
