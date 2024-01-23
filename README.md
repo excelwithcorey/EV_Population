@@ -29,6 +29,17 @@ As an Analyst with a passion in motor vehicles and energy solutions to help impr
 
 When organizing my table information, I actively think about questions to understand the dataset more.
 
+## Methods Used
+1. Data Cleaning and Wrangling: The first approach is to gather the data. Followed by cleaning the data to make sure NULL
+values and missing values are exposed to further utilize the data.
+* Create a database and table we want to make sure that the table contents match the CSV.
+* Import CSV file that includes the data.
+* Ensure that the data is able to be used with no NULL values. We can confirm that there will be no NULL values
+due to filtering when creating our data type.
+2. Exploratory Data Analysis (EDA): This process answers our questions geared toward the project. This step is important to understand 
+the smaller details in the data to make more observations. 
+3. Conclusion 
+
 ## Analysis Info
 * Market Share
 * Range Analysis
