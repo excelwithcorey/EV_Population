@@ -1,4 +1,7 @@
 
+<p align="center">
+  <img width="600" height="400" src="https://github.com/thatcreativecopy/Proj-1-EV_Population/assets/153139454/7d6b00ea-025b-46c9-b710-e45dffbd16d1">
+</p>
 
 # EV Population Data Analysis
 
