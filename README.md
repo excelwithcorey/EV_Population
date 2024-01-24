@@ -7,7 +7,7 @@
 
 ## About
 
-This project EV Population was collected and downloaded from Electric Vehicle Population from data.gov. Thank you to William for uploading the file on kaggle for people in the community to have access to this dataset. Kaggle Electric Vehicle Population
+This project EV Population was collected and downloaded from Electric Vehicle Population from [data.gov](https://catalog.data.gov/dataset/electric-vehicle-population-data). Thank you to William for uploading the file on kaggle for people in the community to have access to this dataset. [Kaggle Electric Vehicle Population](https://www.kaggle.com/datasets/willianoliveiragibin/electric-vehicle-population).
 
 This project aims to discover EV adoption in various states, and postal codes. Some limitations in the dataset include diversification of states: Washington (WA) accounts for 99.8 percent of the total data. Moving forward, we will be focusing on WA as our primary EV adoption. 
 
