@@ -32,8 +32,6 @@ As an Analyst with a passion in motor vehicles and energy solutions to help impr
 | electric_range          | Range of EV                             | NUMERIC        |
 | base_msrp               |Retail price of EV                       | INTEGER        |
 
-When organizing my table information, I actively think about questions to understand the dataset more.
-
 ## Methods Used
 1. Data Cleaning and Wrangling: The first approach is to gather the data. Followed by cleaning the data to make sure NULL
 values and missing values are exposed to further utilize the data.
@@ -45,8 +43,8 @@ due to filtering when creating our data type.
 the smaller details in the data to make more observations. 
 3. Conclusion 
 
-## Analysis Info
-* Market Share
+## Analysis Content
+* Market Share Analysis
 * Range Analysis
 * Demographic Analysis
 
@@ -57,7 +55,7 @@ General Questions:
 2. Which state has the highest adoption of EV?
 3. Which EV is the most popular among all make and models?
 
-### Market:
+### Market Share:
 1. How many EV’s are in each city?
 2. What different makes and models are included in the dataset?
 3. How many electric vehicles are in each postal code?
@@ -69,7 +67,7 @@ General Questions:
 9. How has the market share of EV changed over the years?
 10. What is the market share of different vehicle types in the dataset? (ex: plug-in-hybrid, battery-electric)
 
-### Range Analysis:
+### Range:
 1. What are the top 5 make and models that have the highest range?
 2. What is the average range for each EV type?
 3. What is the distribution of EV range of the dataset?
