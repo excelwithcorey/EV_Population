@@ -11,7 +11,7 @@ This project EV Population was collected and downloaded from Electric Vehicle Po
 
 This project aims to discover EV adoption in various states, and postal codes. Some limitations in the dataset include diversification of states: Washington (WA) accounts for 99.8 percent of the total data. Moving forward, we will be focusing on WA as our primary EV adoption. 
 
-## Purpose of the Project
+## Purpose
 
 As an Analyst with a passion in motor vehicles and energy solutions to help improve fuel economy. The major goal of this project is to gain insights into the adoption of EV to understand the demands and growth. The project identifies the popularity of a manufacturer's make and model.
 
