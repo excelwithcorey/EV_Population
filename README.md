@@ -41,7 +41,7 @@ values and missing values are exposed to further utilize the data.
 due to filtering when creating our data type.
 2. Exploratory Data Analysis (EDA): This process answers our questions geared toward the project. This step is important to understand 
 the smaller details in the data to make more observations. 
-3. Conclusion 
+3. Insights 
 
 ## Analysis Content
 * Market Share Analysis
@@ -82,6 +82,13 @@ General Questions:
 7. Are there certain makes and models that dominate the market?
 8. What is the adoption rate across each postal code?
 9. What is the adoption rate difference between 2023 and 2022?
+
+# Insights
+* WA dominated the dataset in return we mainly focused on WA adoption rates.
+* Tesla is the highest marketshare among all makes.
+* Seattle has the highest adoption rate of EVs in WA.
+* 2023 market share of EV increased by 12.44%.
+* Battery Electric Vehicle is 55.95% greater than Plug-in-Hybrids. Which concludes that adoption of EV is growing rapidly.
 
 ## Code Used
 
